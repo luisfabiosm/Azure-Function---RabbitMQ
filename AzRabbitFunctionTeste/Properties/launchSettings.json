@@ -1,0 +1,20 @@
+{
+  "profiles": {
+    "AzRabbitFunctionTeste": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 11022",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Fabrica"
+      }
+    },
+    "Docker": {
+      "commandName": "Docker",
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
+      "httpPort": 32641,
+      "useSSL": false,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Fabrica"
+      }
+    }
+  }
+}
